@@ -1,0 +1,35 @@
+.card {
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease-in-out;
+}
+.card:not(:hover) {
+    transform: scale(1); 
+}
+.num{
+    padding: 5px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.green{
+    color: lightgreen;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
